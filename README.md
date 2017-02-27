@@ -1,6 +1,6 @@
 # Route
 
-![alt tag](https://raw.githubusercontent.com/php0614/Route/master/Route.png)
+
 
  Symbolic synth routing class for Supercollider inspired by ChucK and Faust, with convenient oscilloscope window; recording; osc send&receive feature.
 by Philip Liu
