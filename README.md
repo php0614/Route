@@ -19,9 +19,9 @@ SynthDef(\cont, { arg out,amp= 6,scope, mfreq = 3;
 
 SynthDef(\osc, { arg out, in, amp; Out.ar(out, amp * SinOsc.ar(1000*In.ar(in))); }).send(s);
 
-SynthDef(\filt, { arg out, in, amp, cut=2000; Out.ar(out, amp*LPF.ar(In.ar(in), cut)); }).send(s);
+SynthDef(\filt, { arg out, in, amp, cut=2000; Out.ar(out, amp * LPF.ar(In.ar(in), cut)); }).send(s);
 
-SynthDef(\rvb, { arg out, in, amp, roomsize = 10 ; Out.ar(out, amp* 0.2*GVerb.ar(In.ar(in), roomsize)); }).send(s);
+SynthDef(\rvb, { arg out, in, amp, roomsize = 10 ; Out.ar(out, amp * 0.2*GVerb.ar(In.ar(in), roomsize)); }).send(s);
 
 
 //decalre an audio bus
