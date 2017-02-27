@@ -50,7 +50,7 @@ r|>\cont=>\osc=+\filt==~bus;
 
 f>>~bus=>\rvb==0;
 
-r.syn[4].set(\roomsize,2);
+f.syn[0].set(\roomsize,2);
 
 r.syn[0].set(\mfreq, 0.01);
 
