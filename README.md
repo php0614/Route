@@ -3,7 +3,7 @@
  Symbolic synth routing class for Supercollider inspired by ChucK and Faust, with convenient oscilloscope window; recording; osc send&receive feature.
 by Philip Liu
 
-To use this class with synths arg 'out' must be decalred. 'in' also should be decalred from second synth because through the 'in' a synth takes signal from the previous one. put 'In.ar(in)' to desired place.
+To use this class with synths arg 'out' must be decalred. 'in' also should be decalred from second synth because through 'in' a synth takes signal from the previous one. put 'In.ar(in)' to a desired place.
 optionally, if you decalre 'amp',  by the method '.amps' you can set all the amp value of synths at once by one array
 
 
