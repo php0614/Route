@@ -9,6 +9,8 @@ To use this class with synths arg 'out' must be decalred. 'in' also should be de
 optionally, if you decalre 'amp',  by the method '.amps' you can set all the amp value of the synths at once by one array
 
 
+----------------------------------------------------------------------------------------------------------------------------
+
 SynthDef(\cont, { arg out,amp= 6,scope, mfreq = 3;
 	var sig, gate = 1;
 	sig = SinOsc.ar(mfreq);
