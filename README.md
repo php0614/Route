@@ -17,7 +17,7 @@ SynthDef(\cont, { arg out,amp= 6,scope, mfreq = 3;
 	Out.ar(out,  sig);
 }).send(s);
 
-SynthDef(\osc, { arg out, in, amp; Out.ar(out, amp*SinOsc.ar(1000*In.ar(in))); }).send(s);
+SynthDef(\osc, { arg out, in, amp; Out.ar(out, amp *SinOsc.ar(1000*In.ar(in))); }).send(s);
 
 SynthDef(\filt, { arg out, in, amp, cut=2000; Out.ar(out, amp*LPF.ar(In.ar(in), cut)); }).send(s);
 
